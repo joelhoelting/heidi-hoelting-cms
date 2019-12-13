@@ -1,0 +1,12 @@
+{
+    "name": "joelhoelting/heidi-hoelting-cms",
+    "require": {
+        "vlucas/phpdotenv": "^4.0"
+    },
+    "authors": [
+        {
+            "name": "Joel Hoelting",
+            "email": "joelhoelting@protonmail.com"
+        }
+    ]
+}
