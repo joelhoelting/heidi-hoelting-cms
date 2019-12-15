@@ -64,6 +64,12 @@ define( 'NONCE_SALT',       getenv('DB_HOST'));
 
 /**#@-*/
 
+define( 'AS3CF_SETTINGS', serialize( array(
+	'provider' => 'aws',
+	'access-key-id' => getenv('AWS_ACCESS_KEY_ID'),
+	'secret-access-key' => getenv('AWS_SECRET_ACCESS_KEY'),
+) ) );
+
 /**
  * WordPress Database Table prefix.
  *
